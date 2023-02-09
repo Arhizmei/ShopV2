@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void DecreaseQuantity(View view) {
-        quantity = quantity - 1;
+        quantity = quantity - 7;
         if (quantity<0){
             quantity=0;
         }
