@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void increaseQuantity(View view) {
 
-        quantity = quantity + 1;
+        quantity = quantity + 2;
         TextView quantitY = findViewById(R.id.quantitY);
         quantitY.setText("" + quantity);
     }
